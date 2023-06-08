@@ -1,0 +1,28 @@
+{
+  "codes": [
+    {
+      "id": "1011001",
+      "code": "print('Hello, World!')",
+      "tags": ["python", "hello world"],
+      "contributor": "John Doe"
+    },
+    {
+      "id": "2012001",
+      "code": "#include <stdio.h>\n\nint main() {\n    int arr[] = {1, 2, 3, 4, 5};\n    int n = sizeof(arr) / sizeof(arr[0]);\n    int x = 3;\n    int index = -1;\n\n    for (int i = 0; i < n; i++) {\n        if (arr[i] == x) {\n            index = i;\n            break;\n        }\n    }\n\n    if (index != -1) {\n        printf(\"Element %d found at index %d\\n\", x, index);\n    } else {\n        printf(\"Element not found\\n\");\n    }\n\n    return 0;\n}",
+      "tags": ["c", "searching"],
+      "contributor": "Jane Smith"
+    },
+    {
+      "id": "3023001",
+      "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint main() {\n    std::vector<int> nums = {5, 2, 8, 1, 9};\n    std::sort(nums.begin(), nums.end());\n\n    std::cout << \"Sorted numbers: \";\n    for (int num : nums) {\n        std::cout << num << \" \";\n    }\n    std::cout << std::endl;\n\n    return 0;\n}",
+      "tags": ["c++", "sorting"],
+      "contributor": "Bob Johnson"
+    },
+    {
+      "id": "3023001",
+      "code": "#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint main() {\n    std::vector<int> nums = {5, 2, 8, 1, 9};\n    std::sort(nums.begin(), nums.end());\n\n    std::cout << \"Sorted numbers: \";\n    for (int num : nums) {\n        std::cout << num << \" \";\n    }\n    std::cout << std::endl;\n\n    return 0;\n}",
+      "tags": ["c++", "sorting"],
+      "contributor": "Bob Johnson"
+    }
+  ]
+}
